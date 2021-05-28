@@ -21,7 +21,7 @@ This project serves as a template for building a responsive website.
 
 ## Steps to Use:
 
-1. Clone this repo. Navigate to the following section in the html file.
+1. Clone this repo and delete the screenshots folder. Navigate to the following section in the html file.
 
 ```html
         <h3>Name/Logo</h3>
