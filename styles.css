@@ -75,8 +75,20 @@ body {
         border-radius: 30px;
     }
 
+    .line1-active {
+        transform: rotate(45deg) translate(-6px, 17px);
+    }
+
+    .line2-active {
+        display: none;
+    }
+
+    .line3-active {
+        transform: rotate(-45deg) translate(-6px,-17px);
+    }
+
     .navlinks {
-        width: 50vw;
+        width: 40vw;
         height: 100vh;
         display: none;
     }
@@ -86,7 +98,7 @@ body {
         position: absolute;
         top:0;
         right:0;
-        width: 50vw;
+        width: 40vw;
         height: 100vh;
         display: flex;
         flex-direction: column;
@@ -95,7 +107,7 @@ body {
     }
 
     #navlinks ul {
-        width: 50vw;
+        width: 40vw;
         height: 50vh;
         display: flex;
         flex-direction: column;
