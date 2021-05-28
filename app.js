@@ -4,10 +4,19 @@ function setWithLi() {
     const width = 70/(numLi.length);
     
     const links = document.querySelector('.navlinks').querySelectorAll('a');
-    console.log(links);
     links.forEach((item)=> {
         item.style.width = String(width)+"vw";
     })
 }
 
+function burger() {
+    const navlinks = document.querySelector('#navlinks');
+    const burger =document.querySelector('.burger').addEventListener('click',() => {
+        console.log("hi");
+        navlinks.classList.toggle("links-active");
+    });
+    
+}
+
 setWithLi();
+burger();
