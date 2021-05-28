@@ -37,14 +37,14 @@ This project serves as a template for building a responsive website.
 
 2. Add Company Name in the h3 tag. Alternatively, insert a logo using the ``` <img>``` tag.
 3. Replace # in <a> with a link to the page.
-4. Replace list names in ```html <li> ```.
+4. Replace list names in ``` <li> ```.
         
         
         
 ### Feel free to add additional tabs in the navbar using the following format
- ```
+ ```html
   <a href="#"><li>TABNAME</li></a>
-  ```
+ ```
         
 ### New color palettes coming soon!
 
