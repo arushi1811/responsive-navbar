@@ -9,4 +9,4 @@ This project serves as a template for building a responsive website.
 
 ## Desktop View on Hover
 
-![Alt text](/screenshots/"desktop hover.png"?raw=true "Optional Title")
+![Alt text](/screenshots/desktop hover.png?raw=true "Optional Title")
